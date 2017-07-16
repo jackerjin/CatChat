@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mRadioGroupId"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+        <RadioButton
+            android:textColor="@color/color"
+            android:checked="true"
+            android:id="@+id/radio0"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/miaoxin_selector"
+            android:text="喵信"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:textColor="@color/color"
+            android:id="@+id/radio1"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/miaoyou_selector"
+            android:text="喵友"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:textColor="@color/color"
+            android:id="@+id/radio2"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/miaoquan_selector"
+            android:text="喵圈"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:textColor="@color/color"
+            android:id="@+id/radio3"
+            style="@style/Button_style"
+            android:drawableTop="@drawable/setting_selector"
+            android:text="设置"
+            android:textSize="12sp"/>
+
+</RadioGroup>

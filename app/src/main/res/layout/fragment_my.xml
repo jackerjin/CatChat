@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tarena.catchat.fragment.FindFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/findfragment_pullToRefreshlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll_find_commentcontainer"
+        android:padding="5dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="3dp"
+        android:background="@color/lightgray"
+        android:visibility="invisible"
+        >
+        <EditText
+            android:id="@+id/et_find_comment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            />
+        <Button
+            android:id="@+id/btn_find_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论"
+            android:background="@drawable/btn_red_selector"
+            android:textColor="@color/whitesmoke"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

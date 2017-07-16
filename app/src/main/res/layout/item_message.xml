@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:orientation="vertical"
+              android:gravity="center"
+               android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="18:32"
+        android:background="@color/lightgray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/headIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <RelativeLayout
+
+            android:id="@+id/messagelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatfrom_bg_normal"
+                android:text="1222"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/contentIV"
+                android:layout_width="200dp"
+
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/textview"
+                android:background="@drawable/chatfrom_bg_normal" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

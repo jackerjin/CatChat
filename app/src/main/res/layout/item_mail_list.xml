@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageview_mial_photo"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textview_Unread"
+            android:background="#EA2000"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_gravity="right|top"
+            android:text="1"
+            android:textColor="#ffffff"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textview_name"
+            android:textSize="18sp"
+            android:gravity="bottom"
+            android:textColor="#000000"
+            android:text="好友名字"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/textview_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="center"
+            android:text="消息内容"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textview_time"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="时间"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

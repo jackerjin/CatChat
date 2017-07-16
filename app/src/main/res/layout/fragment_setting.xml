@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarena.catchat.fragment.SettingFragment">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/tv_setting_name"
+            android:text="test"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/iv_setting_nameEdit"
+            android:src="@drawable/ic_info_edit_pencil"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+       <TextView
+           android:id="@+id/tv_setting_darkhome"
+           android:text="小黑屋"
+           android:gravity="center_vertical"
+           android:textSize="18sp"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent" />
+       <ImageView
+           android:id="@+id/iv_setting_darkhomeEdit"
+           android:src="@drawable/ic_info_edit_pencil"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+       <TextView
+           android:gravity="center_vertical"
+           android:id="@+id/tv_setting_notice"
+           android:text="接受通知"
+           android:textSize="18sp"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent" />
+       <ImageView
+           android:id="@+id/iv_setting_swithnotice"
+           android:src="@drawable/ic_switch_on"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/tv_setting_voice"
+            android:text="声音"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/iv_setting_swithvoice"
+            android:src="@drawable/ic_switch_on"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/tv_setting_vibrate"
+            android:text="震动"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/iv_setting_swithvibrate"
+            android:src="@drawable/ic_switch_on"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+<Button
+    android:id="@+id/btn_setting_logout"
+    android:textColor="#ffffff"
+    android:textSize="18sp"
+    android:text="登出"
+    android:background="#0099cc"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" />
+</LinearLayout>
+</FrameLayout>

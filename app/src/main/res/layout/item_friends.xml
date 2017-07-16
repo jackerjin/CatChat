@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/default_ptr_flip"
+        android:id="@+id/headIV"
+        android:layout_width="45dp"
+        android:layout_height="45dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:text="Nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nickTV"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameTV"/>
+
+    </LinearLayout>
+</LinearLayout>
